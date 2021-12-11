@@ -46,7 +46,7 @@ small {
 .links a {
   color: white;
   margin-left: 8px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .links a:hover {
@@ -56,5 +56,9 @@ small {
 @media screen and (max-width: 600px) {
   html {
     font-size: 10px;
+  }
+
+  .links a {
+    font-size: 1.5rem;
   }
 }
